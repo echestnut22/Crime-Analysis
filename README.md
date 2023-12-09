@@ -4,8 +4,8 @@ TODO
 
 High Priority:
 
-- Set up AWS and import datasets
-- Clean current datasets (remove irrelevant data, remove rows that have NaNs in important columns etc.)
+- Finish aggregating and cleaning data. Upload to database
+- Start statistical EDA once all datasets can be joined (regression to start looking for relationships with crime)
 
 Medium Priority:
 - Find another city with good data on public goods, housing, access to transportation and other public services etc. as well as crime data to eventually be used for our prediction model
