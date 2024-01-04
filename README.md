@@ -10,9 +10,11 @@
 
 - [ ] If we want to use police sentiment data, we need to find a way to get police beats and districts to fit into communities. Would say its optional but it also has good census type data that would be helpful. (In progress - Eric)
 
-- [ ] Maybe need to do some label encoding where appropriate and then explore which features have highest correlation with crime. Choose which features we want to work on
+
+- [ ] Maybe need to do some label encoding where appropriate
+- [ ] Explore which features we want to specifically use for regression/prediction. Identify variables with highest correlation to crime. Organize and create dataset(s) just looking at these variables and crime(s) (we can choose specific types of crime too if we want)
+- [ ] Create a regression model with training and testing data. Experiment with different simple regression models
 - [ ] As Emily suggested, need to choose which time level we want our regression model to predict at. Probably monthly. 
-- [ ] Split data into training and testing data
 - [ ] Create some kind of prediction model looking at crime and socioeconomic trends to predict future crimes in each area. 
 - [ ] Start and finish final paper and presentation 
 
