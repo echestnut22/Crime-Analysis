@@ -1,18 +1,33 @@
 # Crime-Analysis-
 
-TODO
+## Roadmap:
 
-High Priority:
+### For sure need to get done for a suitable project:
 
-- Finish aggregating and cleaning data. Upload to database
-- Start statistical EDA once all datasets can be joined (regression to start looking for relationships with crime)
 
-Medium Priority:
-- Find another city with good data on public goods, housing, access to transportation and other public services etc. as well as crime data to eventually be used for our prediction model
+- [ ] JOIN DATASETS (In progress - Eric)
+- [ ] Two ML assignments (Emily M taking lead on regression ML assignment. Shawn taking lead on classification ML assignment)
 
-Lower priority:
-- Find more Chicago socioeconomic datasets
-- From my understanding, it will be a lot simpler for a machine learning model to digest numerical data, so we should at some assign point assign categories to number values (ie. Assault is 0, Theft is 1, Narcotics is 2, etc.). This is called label encoding. There is also one-hot encoding, a different type of encoding to look into. - Eric 
+- [ ] If we want to use police sentiment data, we need to find a way to get police beats and districts to fit into communities. Would say its optional but it also has good census type data that would be helpful. (In progress - Eric)
+
+- [ ] Maybe need to do some label encoding where appropriate and then explore which features have highest correlation with crime. Choose which features we want to work on
+- [ ] As Emily suggested, need to choose which time level we want our regression model to predict at. Probably monthly. 
+- [ ] Split data into training and testing data
+- [ ] Create some kind of prediction model looking at crime and socioeconomic trends to predict future crimes in each area. 
+- [ ] Start and finish final paper and presentation 
+
+### Optional but would make our project better:
+
+
+- [ ] Need to figure out how certain things are relevant like housing, grocery stores and transportation (Could use things like quantity of in each community area, distance from transportation areas, density of grocery stores etc.) Would have to create our own quantifiable data to use these which will be difficult. (This is probably the hardest thing we have to do. Can begin creating a model with more straight forward, already quantifiable data like census data, police sentiment scores, etc.) 
+
+### Optional only if we have time:
+
+- [ ] Use Chicago to create our regression model and find data from other cities looking at similar socioeconomic factors and assess regression model against this data. Could then improve model by integrating other cities crime data as well. Could also be used to create and improve any prediction model as well.
+
+- Eric
+
+  
 
 Questions/Concerns about Datasets (Emily M):
 
