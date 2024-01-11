@@ -16,7 +16,8 @@
 - [ ] Create a regression model with training and testing data. Experiment with different simple regression models
 - [ ] As Emily suggested, need to choose which time level we want our regression model to predict at. Probably monthly. 
 - [ ] Create some kind of prediction model looking at crime and socioeconomic trends to predict future crimes in each area. 
-- [ ] Start and finish final paper and presentation 
+- [ ] Start and finish final paper and presentation
+- [ ] Add population counts for each sector to calculate crime per capita
 
 ### Optional but would make our project better:
 
